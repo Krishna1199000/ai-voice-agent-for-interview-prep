@@ -11,5 +11,5 @@ export default async function middleware(request) {
 
 
 export const config = {
-    matcher: '/protected/:path*',
+    matcher: '/dashboard/:path*',
 };
